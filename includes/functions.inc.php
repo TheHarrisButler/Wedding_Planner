@@ -144,7 +144,7 @@ function loginUser($conn, $username, $pwd)
     session_start();
     $_SESSION["userid"] = $uidExists["usersID"];
     $_SESSION["useruid"] = $uidExists["usersUid"];
-    header("location: ../index.php");
+    header("location: ../venues/home.php");
     exit();
   }
 }

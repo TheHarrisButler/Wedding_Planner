@@ -15,16 +15,7 @@
 				include_once 'header.php';
 			?>
 		  <main class="px-3">
-				<?php
-	        if (isset($_SESSION["useruid"]))
-	        {
-	          echo "<h1>Hello there ". $_SESSION["useruid"] ."</h1>";
-	        }
-	        else
-	        {
-	          echo "<h1>Your dream wedding awaits</h1>";
-	        }
-	      ?>
+				<h1>Your dream wedding awaits!</h1>
 		    <p class="lead">Virtually decorate your dream wedding!</p>
 		    <p class="lead">
 		      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
